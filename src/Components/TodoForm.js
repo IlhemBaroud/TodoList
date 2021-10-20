@@ -13,6 +13,7 @@ const ToDoForm = ({addTask}) => {
     }
     
     const handleChange=(e)=>{
+        console.log(e);
         setUserInput(e.currentTarget.value)
     }
     
